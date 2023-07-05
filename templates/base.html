@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/344/external-chatbot-digital-marketing-flaticons-flat-flat-icons.png" width="70" height="70" alt="C0D3X">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chat support</h4>
+                        <p class="chatbox__description--header">WELCOME TO THE CHAT SUPPORT </p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button"><input type="image" name="SEND" 
+                        src="https://img.icons8.com/external-bartama-outline-32-bartama-graphic/344/external-email-e-mail-bartama-outline-32-bartama-graphic-7.png" alt="text" height="50" width="125"></button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button class="button"><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="menu">
+            <ul>
+                <li class="logo"><img src="https://raw.githubusercontent.com/Pat12Gamer/ICT-2022/main/iswki-logo.png"></li>
+                <a class="active"   href="/">Home</a>
+                <a href="/team">Team</a>
+                <a href="https://forms.gle/HGpfaP7hCQDxH5LYA">Report</a> 
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="navbar">
+          <div class="nav-logo border">
+            <div class="logo"></div>
+          </div>
+    
+          <div class="nav-address border">
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="add-sec">India</p>
+            </div>
+          </div>
+    
+        <div class="nav-search">
+        <select class="search-select">
+          <option>All</option>
+        </select>
+        <input placeholder="Search Amazon" class="search-input">
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+    
+        <div class="nav-signin border">
+          <p><span>Hello, sign in </span></p>
+          <p class="nav-second">Account & Lists</p>
+        </div>
+    
+        <div class="nav-return border">
+          <p><span>Returns </span></p>
+          <p class="nav-second">& Orders</p>
+        </div>
+    
+        <div class="nav-cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+        </div>
+        </div> 
+       
+        <div class="panel">
+            <div class="panel-all">
+              <i class="fa-solid fa-bars"></i>
+              All
+            </div>
+            <div class="panel-ops">
+              <p>Today's Deals</p>
+              <p>Customer Servies</p>
+              <p>Registry</p>
+              <p>Gift Cards</p>
+              <p>Sell</p>
+            </div>
+            <div class="panel-deals">
+              Shop deals in electronics
+            </div>
+        </div>
+    
+      </header>
+    
+      <div class="hero-section">
+        <div class="hero-msg">
+          <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a></p>
+        </div>
+      </div>
+    
+      <div class="shop-section">
+        <div class="box1 box">
+           <div class="box-content">
+            <h2>Clothes</h2>
+            <div class="box-img" style="background-image: url('https://github.com/sayu-2003/Amazon-clone/blob/main/box1_image.jpg?raw=true');"></div>
+           <p>See more</p>
+          </div>
+        </div>
+        <div class="box2 box"><div class="box-content">
+          <h2>Health & Personal Care</h2>
+          <div class="box-img" style="background-image: url('https://github.com/sayu-2003/Amazon-clone/blob/main/box2_image.jpg?raw=true');"></div>
+         <p>See more</p>
+        </div>
+        </div>
+        <div class="box3 box">
+          <div class="box-content">
+            <h2>Furniture</h2>
+            <div class="box-img" style="background-image: url('https://github.com/sayu-2003/Amazon-clone/blob/main/box3_image.jpg?raw=true');"></div>
+           <p>See more</p>
+          </div>
+        </div>
+        <div class="box4 box">
+          <div class="box-content">
+            <h2>Electronics</h2>
+            <div class="box-img" style="background-image: url('https://github.com/sayu-2003/Amazon-clone/blob/main/box4_image.jpg?raw=true');"></div>
+           <p>See more</p>
+          </div>
+        </div>
+        <div class="box1 box">
+          <div class="box-content">
+           <h2>Beauty picks</h2>
+           <div class="box-img" style="background-image: url('https://github.com/sayu-2003/Amazon-clone/blob/main/box5_image.jpg?raw=true');"></div>
+          <p>See more</p>
+         </div>
+       </div>
+       <div class="box2 box"><div class="box-content">
+         <h2>Pet Care</h2>
+         <div class="box-img" style="background-image: url('https://github.com/sayu-2003/Amazon-clone/blob/main/box6_image.jpg?raw=true');"></div>
+        <p>See more</p>
+       </div>
+       </div>
+       <div class="box3 box">
+         <div class="box-content">
+           <h2>New Arrival in Toys</h2>
+           <div class="box-img" style="background-image: url('https://github.com/sayu-2003/Amazon-clone/blob/main/box7_image.jpg?raw=true');"></div>
+          <p>See more</p>
+         </div>
+       </div>
+       <div class="box4 box">
+         <div class="box-content">
+           <h2>Discover Fashion Trends</h2>
+           <div class="box-img" style="background-image: url('https://github.com/sayu-2003/Amazon-clone/blob/main/box8_image.jpg?raw=true');"></div>
+          <p>See more</p>
+         </div>
+       </div>
+      </div>
+      <footer>
+         <div class="foot-panel1">
+          Back to Top
+         </div>
+         
+         <div class="foot-panel2">
+            <u>
+              <p>Get to Know Us</p>
+              <a>Careers</a>
+              <a>Blog</a>
+              <a>About Amazon</a>
+              <a>Investor Relations</a>
+              <a>Amazon Devices</a>
+              <a>Amazon Science</a>
+            </u>
+         </div>
+      </footer>
+
+    <script type =text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

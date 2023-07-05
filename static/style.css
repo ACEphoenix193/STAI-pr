@@ -1,0 +1,587 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    background: #F1F1F1;
+}
+
+*, html {
+    --primaryGradient: linear-gradient(93.12deg, #f80e06 0.52%, #ee1053 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #e60d72 -2.14%, #ec2e2e 99.69%);
+    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+    --primary:linear-gradient(93.12deg, #f80e06 0.52%, #ee1053 100%);
+}
+
+/* CHATBOX
+=============== */
+.chatbox {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+/* CONTENT IS CLOSE */
+.chatbox__support {
+    display: flex;
+    flex-direction: column;
+    background: rgba(96, 233, 5, 0.801);
+    width: 300px;
+    height: 350px;
+    z-index: -123456;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+/* CONTENT ISOPEN */
+.chatbox--active {
+    transform: translateY(-40px);
+    z-index: 123456;
+    opacity: 1;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+
+}
+
+/* BUTTON */
+.chatbox__button {
+    text-align: right;
+}
+.chatbox__button .button{
+    position: fixed;
+    bottom: 10px;
+    right: 10px; 
+}
+.send__button {
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* HEADER */
+.chatbox__header {
+    position: sticky;
+    top: 0;
+    background: orange;
+}
+
+/* MESSAGES */
+.chatbox__messages {
+    margin-top: auto;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+}
+
+.messages__item {
+    background: orange;
+    max-width: 60.6%;
+    width: fit-content;
+}
+
+.messages__item--operator {
+    margin-left: auto;
+}
+
+.messages__item--visitor {
+    margin-right: auto;
+}
+
+/* FOOTER */
+.chatbox__footer {
+    position: sticky;
+    bottom: 0;
+}
+
+.chatbox__support {
+    background: #f9f9f9;
+    height: 450px;
+    width: 350px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* HEADER */
+.chatbox__header {
+    background: var(--primaryGradient);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: var(--primaryBoxShadow);
+}
+
+.chatbox__image--header {
+    margin-right: 10px;
+}
+
+.chatbox__heading--header {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.chatbox__description--header {
+    font-size: .9rem;
+    color: white;
+}
+
+/* Messages */
+.chatbox__messages {
+    padding: 0 20px;
+}
+
+.messages__item {
+    margin-top: 10px;
+    background: #E0E0E0;
+    padding: 8px 12px;
+    max-width: 70%;
+}
+
+.messages__item--visitor,
+.messages__item--typing {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.messages__item--operator {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: var(--primary);
+    color: white;
+}
+
+/* FOOTER */
+.chatbox__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background: var(--secondaryGradient);
+    box-shadow: var(--secondaryBoxShadow);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 20px;
+}
+
+.chatbox__footer input {
+    width: 80%;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.chatbox__send--footer {
+    color: white;
+}
+
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited {
+    padding: 10px;
+    background: white;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.container1{
+    width: 100%;
+    height: 100%;
+    background: #143A70;
+}
+.menu ul{
+    display: inline-flex;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.menu ul a{
+    list-style: none;
+    margin: 0 20px;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 30px;
+}
+.logo img{
+    width: 72px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+.active{
+    color: #19dafa !important;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+}
+.sub-title-center{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin:auto;
+}
+.imgcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+.Our-Team{
+    background: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 0px 25px;
+    padding: 30px 70px;
+}
+.Our-Team .pic{
+    display: inline-flex;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 0px;
+    z-index: 1;
+    position: relative;
+}
+.Our-Team .pic::before{
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #1785eb;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.2;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+.Our-Team:hover .pic::before{
+    height: 100%;
+}
+.Our-Team .pic::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1785eb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.Our-Team .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+.Our-Team:hover .pic img{
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+    transition: all 0.9s ease 0s;
+}
+.Our-Team .team-content{
+    margin-bottom: 30px;
+}
+.Our-Team .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e5052;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.Our-Team .post{
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+}
+.super-img img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+}
+.Boxed{
+    width: 1000px;
+    border: 1px solid grey;
+    padding: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    
+}
+h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 23.5px;
+}
+p{
+    padding: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.lol{
+    padding: 50px;
+}
+blockquote p{
+    text-align: center;
+    font-size: 28px;
+    line-height: 36px;
+    padding: 30px 0;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: "PT Serif",serif;
+}
+hr{
+    margin: auto;
+    width: 25%;
+    border-color: #1785eb !important;
+}
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height:50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("https://github.com/sayu-2003/Amazon-clone/blob/main/amazon_logo.png?raw=true");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white
+}
+
+/**box2**/
+.add-first{
+   color: #cccccc;
+   font-size: 0.85rem;
+   margin-left: 15px;
+}
+
+.add-sec{
+   font-size: 1rem;
+   margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/**box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111; 
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/**box4**/
+span{
+    font-size: 0.7rem;
+}
+
+nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**box6**/
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**panel**/
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rems;
+    font-weight: 700;
+}
+
+/**hero-section**/
+
+.hero-section{
+    background-image: url("https://github.com/sayu-2003/Amazon-clone/blob/main/hero_image.jpg?raw=true");
+    background-size: cover;
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+ 
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/**shop section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    
+    height:400px;
+    width:23%;
+    background-color: white; 
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+/** footer **/
+.footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: 37475a;
+    color: white;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items : center;
+    font-size: 0.85rem;
+}
