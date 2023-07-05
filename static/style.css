@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 body {
@@ -388,7 +388,7 @@ hr{
 
 /**box4**/
 span{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
 nav-second{
@@ -482,7 +482,7 @@ nav-second{
     height: 300px;
     background-size: cover;
     margin-top: 1rem;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 
 }
 
@@ -493,6 +493,7 @@ nav-second{
 
 .box-content p{
     color: #007185;
+    padding: 0px;
 }
 
 /** footer **/
