@@ -251,77 +251,7 @@ h1{
     width: 80%;
     margin: auto;
 }
-.Our-Team{
-    background: #f7f5ec;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    margin: 0px 25px;
-    padding: 30px 70px;
-}
-.Our-Team .pic{
-    display: inline-flex;
-    width: 130px;
-    height: 130px;
-    margin-bottom: 0px;
-    z-index: 1;
-    position: relative;
-}
-.Our-Team .pic::before{
-    content: "";
-    width: 100%;
-    height: 0;
-    border-radius: 50%;
-    background-color: #1785eb;
-    position: absolute;
-    bottom: 135%;
-    right: 0;
-    left: 0;
-    opacity: 0.2;
-    transform: scale(3);
-    transition: all 0.3s linear 0s;
-}
-.Our-Team:hover .pic::before{
-    height: 100%;
-}
-.Our-Team .pic::after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: #1785eb;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-.Our-Team .pic img{
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    transform: scale(1);
-    transition: all 0.9s ease 0s;
-}
-.Our-Team:hover .pic img{
-    box-shadow: 0 0 0 14px #f7f5ec;
-    transform: scale(0.7);
-    transition: all 0.9s ease 0s;
-}
-.Our-Team .team-content{
-    margin-bottom: 30px;
-}
-.Our-Team .title{
-    font-size: 22px;
-    font-weight: 700;
-    color: #4e5052;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-}
-.Our-Team .post{
-    display: block;
-    font-size: 15px;
-    color: #4e5052;
-}
+
 .super-img img{
     width: 50%;
     display: block;
@@ -368,12 +298,6 @@ hr{
     border-color: #1785eb !important;
 }
 
-*{
-    margin: 0;
-    font-family: Arial;
-    border: border-box;
-}
-
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -389,7 +313,7 @@ hr{
 }
 
 .logo{
-    background-image: url("https://github.com/sayu-2003/Amazon-clone/blob/main/amazon_logo.png?raw=true");
+    background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -511,7 +435,7 @@ nav-second{
 /**hero-section**/
 
 .hero-section{
-    background-image: url("https://github.com/sayu-2003/Amazon-clone/blob/main/hero_image.jpg?raw=true");
+    background-image: url("hero_image.jpg");
     background-size: cover;
     height: 350px;
     display:flex;
