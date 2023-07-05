@@ -331,7 +331,7 @@ hr{
 .add-first{
    color: #cccccc;
    font-size: 0.85rem;
-   margin-left: 15px;
+   margin-left: 10px;
 }
 
 .add-sec{
@@ -341,7 +341,7 @@ hr{
 
 .add-icon{
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 /**box3**/
@@ -387,7 +387,7 @@ hr{
 }
 
 /**box4**/
-span{
+span1{
     font-size: 0.6rem;
 }
 
@@ -425,6 +425,7 @@ nav-second{
 .panel-ops{
     width: 70%;
     font-size: 0.85rem;
+    color: white;
 }
 
 .panel-deals{
@@ -509,4 +510,8 @@ nav-second{
     justify-content: center;
     align-items : center;
     font-size: 0.85rem;
+}
+.navbar-address border{
+    padding:0%
+
 }
