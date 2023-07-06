@@ -520,18 +520,25 @@ nav-second{
     font-size: 0.85rem;
     margin-bottom: 0;
     padding-bottom: 0;
-    background-color: #232F3E;
+    background-color: #394261;
     min-width: 1000px;
     position: relative;
     cursor: pointer;
 }
-
-foot-panel2{
+ul p{
+    text-align: left;
+    align-items: left;
+    color:white;
+    padding:0px;
+    margin-top: 10px;
+}
+.foot-panel2{
   background-color: #222f3d;
   color:white;
-  height: 600px;;
+  height: 300px;;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 0px;
 }
 
 ul{
@@ -541,14 +548,15 @@ ul{
 ul a{
     display: block;
     font-size: 0.85rem;
-    margin-top: 10px;
+    margin-top: 15px;
     color: #dddddd;
+    align-items: center;
 }
 
 .foot-panel3{
     background-color:#222f3d;
     color:white;
-    border-top: 0.5px solid white;
+    border-top: 0.001px solid rgba(156, 170, 180, 0.897);
     height: 70px;
     display: flex;
     justify-content: center;
