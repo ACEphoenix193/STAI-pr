@@ -17,7 +17,7 @@ body {
     --secondaryGradient: linear-gradient(268.91deg, #2c3952 -2.14%, #325883 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-    --primary:linear-gradient(93.12deg, #f80e06 0.52%, #ee1053 100%);
+    --primary:linear-gradient(93.12deg, #f8c008 0.52%, #eea810 100%);
 }
 
 /* CHATBOX
@@ -152,7 +152,7 @@ body {
 
 .messages__item {
     margin-top: 10px;
-    background: #E0E0E0;
+    background: #e0e0e0b7;
     padding: 8px 12px;
     max-width: 70%;
 }
