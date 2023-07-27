@@ -11,10 +11,9 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
+        "Hi there,Welcome to the Amazon shopping website.",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help you?"
       ]
     },
     {
@@ -32,168 +31,71 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "who",
+      "tag": "offers",
       "patterns": [
-        "Who are you?",
-        "Who am I speaking to?",
-        "who do you identify yourself as?"
+        "Any offers?",
+        "Any discount?"
       ],
       "responses": [
-        "I am C0D3X, I was made by Shouvik and stand as CHAT SUPPORT for Website made by Parth ",
-        "Nice to meet you! I am C0D3X",
-        "I am the CHAT SUPPORT for CODY"
+        "Sorry there,but the offer period is over.",
+        "Yes ! 50% discount on clothes,shoes,bags.",
+        "Yes sir/ma'am. We have special diwali offers for this whole week!"
       ]
     },
     {
-      "tag": "use",
+      "tag": "exchange",
       "patterns": [
-        "what is this website about?",
-        "What do you provide on this website?",
-        "why should i use this website?",
-        "What is there in this website?"
+        "what is the exchange policy?",
+        "I wish to exchange my clothes. I bought it 3 days back.Is it possible? "
       ],
       "responses": [
-        "This website focuses on creating awareness over cyber bullying",
-        "This website focuses on creating awareness over bullying of studennts on the net",
-        "This website provides information and encourages positive motives to prevent bullying",
-        "You can report and find out about what bullyingis and how we should not encourage it",
-        "This website was built to be an exclusive resource that will enable students to be aware of bullying in your daily life"
+        "We accept exchanges within 7 days of the purchase. Items bought under offers cannot be exchanged."
+        
       ]
     },
     {
-      "tag": "Web_structure",
+      "tag": "Shipping rates",
       "patterns": [
-        "What does this website focus on?",
-        "what is the theme of this website",
-        "what is cyber bulliying?"
+        "What is the shipping rate?",
+        "How can I determine the shipping rate?",
+        "Tell me something about the shipping rate."
       ],
       "responses": [
-        "This website focuses on cyber bullying. It is the  the use of electronic communication to bully a person, typically by sending messages of an intimidating or threatening nature",
-        "Cyberbullying or cyberharassment is a form of bullying or harassment using electronic means.",
-        "Cyberbullying is the use of cell phones, instant messaging, e-mail, chat rooms or social networking sites such as Facebook and Twitter to harass, threaten or intimidate someone"       
+        "Shipping rates and times depend on the shipping speed and the weight/size of the items. To determine the applicable shipping rate,select proceed to checkout,add your shipping address,select a shipping speed,select a payment method and select continue to know the shipping rates."       
       ]
     },
     {
-      "tag": "known",
+      "tag": "Order tracking",
       "patterns": [
-        "how do i know i am being bullied?",
-        "how can i understand if someone is cyber bullying me?"
+        "I had ordered 3-4 days back. I have not received it.",
+        "How do I check when I will receive my order?"
         
       ],
       "responses": [
-        "when the bullying takes place online, it can result in unwanted attention from a wide range of people including strangers. Wherever it may happen, if you are not happy about it, you should not have to stand for it.",
-        " if you are being sent hurtful, abusive or threatening messages, images or videos via messaging platforms this can be recognised as cyber bullying",
-        "if someone is spreading lies about or posting embarrassing photos or videos of someone on social media, it can said as cyber bullying"        
-      ]
+        "Go to Your Orders,click on the order you want to track,select Track Package next to your order.Now you can check out all the delivery updates."
+         ]
     },
     {
-      "tag": "effect",
+      "tag": "Amazon Fresh",
       "patterns": [
-        "What are the effects of cyberbullying?",
-        "how does bullying affect someone?"
+        "What is Amazon Fresh?",
+        "I heard about Amazon Fresh somewhere.Pls explain it."
         
       ],
       "responses": [
-        "Mentally feeling upset, embarrassed, stupid, even afraid or angry ",
-        " Emotionally feeling ashamed or losing interest in the things you love",
-        "And if you are not comfortable talking to someone you know, search for a helpline in your country to talk to a professional counsellor",
-        "If you are experiencing cyberbullying, speaking to a trusted adult – someone you feel safe talking to – is one of the most important first steps you can take.",
-        "Skipping school is another common effect of cyberbullying and can affect the mental health of young people who turn to substances like alcohol and drugs or violent behavior to deal with their psychological and physical pain"       
+        "Prime and Non-Prime members in select cities can shop for groceries, everyday essentials, and more with Amazon Fresh. Amazon Fresh offers Attended Delivery and Unattended Delivery, with Pickup options in select cities.Visit Amazon.com/Fresh to see if delivery or pickup is available in your area." 
       ]
     },
     {
-      "tag": "inform",
+      "tag": "Gift cards",
       "patterns": [
-        "Who should I talk to if someone is bullying me online?",
-        "who should i inform if i am being bullied?"
+        "What are Amazon Gift Cards?",
+        "Please explain what are Amazon Gift Cards."
         
       ],
       "responses": [
-        "If you think you’re being bullied, the first step is to seek help from someone you trust such as your parents, a close family member or another trusted adult.",
-        " In your school you can reach out to a counsellor, the sports coach or your favourite teacher – either online or in person.",
-        "If you are experiencing cyberbullying, speaking to a trusted adult – someone you feel safe talking to – is one of the most important first steps you can take."
-      ]
-    },
-    {
-      "tag": "help",
-      "patterns": [
-        "How can I help my friends if they are being bullied?",
-        "my friend is being bullied. What should i do?",
-        "how should i help someone i know being bullied?"
+        "An amazon gift card is a card that has already been loaded with a set amount of money and then sent out to the receiver. The receiver could be anyone. It could be a gift to your partner, best friend and anyone. Amazon gift cards can be purchased in almost any amount from $0.50 to $2000. Amazon gift cards can be redeemed on Amazon for anything on Amazon."
         
-      ],
-      "responses": [
-        "Anyone can become a victim of cyberbullying. If you see this happening to someone you know, try to offer support.",
-        " It is important to listen to your friend. Why don’t they want to report being cyberbullied? How are they feeling? Let them know that they don’t have to formally report anything, but it’s crucial to talk to someone who might be able to help",
-        "Remember, your friend may be feeling fragile. Be kind to them. Help them think through what they might say and to whom. Offer to go with them if they decide to report. Most importantly, remind them that you’re there for them and you want to help.",
-        "Doing nothing can leave the person feeling that everyone is against them or that nobody cares. Your words can make a difference."       
-      ]
-    },
-    {
-      "tag": "stop",
-      "patterns": [
-        "How do we stop cyberbullying?",
-        "i wanna be on the internet without being bullied?"
-      ],
-      "responses": [
-        "If you experience cyberbullying, you may want to delete certain apps or stay offline for a while to give yourself time to recover. But getting off the Internet is not a long-term solution.",
-        "You did nothing wrong, so why should you be disadvantaged? It may even send the bullies the wrong signal — encouraging their unacceptable behaviour. ",
-        "We all want cyberbullying to stop, which is one of the reasons reporting cyberbullying is so important. But creating the Internet we want goes beyond calling out bullying.",
-        "We need to be thoughtful about what we share or say that may hurt others. We need to be kind to one another online and in real life. It's up to all of us!"
-      ]
-    },
-    {
-      "tag": "aware",
-      "patterns": [
-        "How do I prevent my personal information from being used to manipulate me?",
-        "How do I prevent my personal information from being used to humiliate me on social media?"
-      ],
-      "responses": [
-        "Think twice before posting or sharing anything on digital platforms – it may be online forever and could be used to harm you later. Don’t give out personal details such as your address, telephone number or the name of your school.",
-        "You can decide who can see your profile, send you direct messages or comment on your posts by adjusting your account privacy settings",
-        "You can report hurtful comments, messages, photos and videos and request they be removed.",
-        "Besides unfriending, you can completely block people to stop them from seeing your profile or contacting you",
-        "You can also choose to have comments by certain people to appear only to them without completely blocking them."
-      ]
-    },
-    {
-      "tag": "punish",
-      "patterns": [
-        "Is there a punishment for cyberbullying?",
-        "Is cyberbullying a punishable offence?",
-        "what charges can you face for bullying someone?"
-      ],
-      "responses": [
-        "Most schools take bullying seriously and will take action against it. If you are being cyberbullied by other students, report it to your school.",
-        "People who are victims of any form of violence, including bullying and cyberbullying, have a right to justice and to have the offender held accountable.",
-        "Laws against bullying, particularly on cyberbullying, are relatively new and still do not exist everywhere. This is why many countries rely on other relevant laws, such as ones against harassment, to punish cyberbullies.",
-        "it is important to remember that punishment is not always the most effective way to change the behaviour of bullies. It is often better to focus on repairing the harm and mending the relationship"
-      ]
-    },
-    {
-      "tag": "tools",
-      "patterns": [
-        "Are there any online anti-bullying tools for children?",
-        "tools to prevent bullying",
-        "tools and programmes to prevent bullying?"
-      ],
-      "responses": [
-        "Each social platform offers different tools that allow you to restrict who can comment on or view your posts or who can connect automatically as a friend, and to report cases of bullying. Many of them involve simple steps to block, mute or report cyberbullying. We encourage you to explore them.",
-        "Social media companies also provide educational tools and guidance for children, parents and teachers to learn about risks and ways to stay safe online.",
-        "Also, the first line of defense against cyberbullying could be you. Think about where cyberbullying happens in your community and ways you can help – by raising your voice, calling out bullies, reaching out to trusted adults or by creating awareness of the issue. Even a simple act of kindness can go a long way.",
-        "If you are worried about your safety or something that has happened to you online, urgently speak to an adult you trust. Many countries have a special helpline you can call for free and talk to someone anonymously."
-      ]
-    },
-    {
-      "tag": "cope",
-      "patterns": [
-        "how to cope with cyber bullying?",
-        "How to recover from cyberbullying?"
-      ],
-      "responses": [
-        "Reclaim control. Cyberbullying can make teens feel like their lives are out of control. For this reason, you want to teach yourself how to take back your power.",
-        "Learn from the experience. Whether you need a boost to their self-esteem or you need to learn to think positively, help yourself identify what you can learn from this experience.",
-        "Focus on the future. It's very easy for bullied kids to stay stuck in their pain. Instead, help yourself focus on the future and set goals rather than dwelling on the pain you're experiencing."
       ]
     }
     
