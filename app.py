@@ -7,7 +7,7 @@ CORS(app)
 
 @app.get("/")
 def index_get():
-    return render_template("register.html")
+    return render_template("base.html")
 
 @app.post("/predict")
 def predict():

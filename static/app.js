@@ -89,3 +89,12 @@ class Chatbox {
 
 const chatbox = new Chatbox();
 chatbox.display();
+
+let menu = document.querySelector("#menu-icon");
+let navlist = document.querySelector(".navlist");
+let header = document.querySelector("header");
+
+menu.onclick = () => {
+    menu.classList.toggle("bx-x");
+    navlist.classList.toggle("open");
+  };
