@@ -9,8 +9,9 @@
 }
 body {
   min-height: 100vh;
-  background: linear-gradient(24deg, #67db6c, #dd1a1a, #f4f781, #81ccf7);
+  background: linear-gradient(24deg, #dd1a1a, #f4f781, #81ccf7);
   background-size: 800% 800%;
+
   animation: AnimationName 19s ease infinite;
 }
 
