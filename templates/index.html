@@ -28,23 +28,22 @@
     />
   </head>
   <body>
+    
     <header>
       <h2 class="logo">Genetic Engineering in Healthcare</h2>
       <ul class="navlist">
         <li><a href="/" class="active">Home</a></li>
         <li>
-          <a href="WhyGeneticEngineering/index.html">Why Genetic Engineering</a>
+          <a href="/whyge">Why Genetic Engineering</a>
         </li>
-        <li><a href="./Ethical Concerns/index.html">Ethical Concerns</a></li>
-        <li><a href="./about-us/index.html">About Us</a></li>
+        <li><a href="/ethical">Ethical Concerns</a></li>
+        <li><a href="/about">About Us</a></li>
       </ul>
       <div class="bx bx-menu" id="menu-icon"></div>
     </header>
     <div class="but">
-      <video autoplay loop muted play-inline class="bgvid">
-        <source src="bg.mp4" type="video/mp4" />
-      </video>
-      <a href="/WhyGeneticEngineering/index.html"
+      <img src="https://github.com/ACEphoenix193/about-us/blob/main/bg%20(1).gif?raw=true" width="100%" height="auto"/>
+      <a href="/whyge"
         >Explore Genetic Innovations</a
       >
     </div>
@@ -53,7 +52,7 @@
       <table>
         <tr>
           <th>
-            <img src="lab.gif" />
+            <img src="https://github.com/Pat12Gamer/STAI-Project/blob/main/lab.gif?raw=true" />
           </th>
           <th>
             <p>
@@ -104,7 +103,7 @@
             </p>
           </th>
           <th>
-            <img src="com.gif" />
+            <img src="https://github.com/Pat12Gamer/STAI-Project/blob/main/com.gif?raw=true" />
           </th>
         </tr>
       </table>
@@ -117,11 +116,41 @@
         </div>
         <div class="footer-column">
           <h3>For inquiries or feedback, please contact us at:</h3>
-          <a href="#">Email: </a>
-          <a href="#">Phone: </a>
+          <a href="#">Email: xyz@gmail.com </a>
+          <a href="#">Phone: 9678xxxx </a>
         </div>
       </div>
     </footer>
+    <div class="container">
+      <div class="chatbox">
+          <div class="chatbox__support">
+              <div class="chatbox__header">
+                  <div class="chatbox__image--header">
+                      <img src="https://cdn-icons-png.flaticon.com/512/3094/3094129.png" width="70" height="70" alt="C0D3X">
+                  </div>
+                  <div class="chatbox__content--header">
+                      <h4 class="chatbox__heading--header">Chat support</h4>
+                      <p class="chatbox__description--header">WELCOME TO AN INFORMATIVE PAGE ON GENETIC ENGINEERING IN HEALTHCARE </p>
+                  </div>
+              </div>
+              <div class="chatbox__messages">
+                  <div></div>
+              </div>
+              <div class="chatbox__footer">
+                  <input type="text" placeholder="Write a message...">
+                  <button class="chatbox__send--footer send__button"><input type="image" name="SEND" 
+                      src="https://img.icons8.com/external-bartama-outline-32-bartama-graphic/344/external-email-e-mail-bartama-outline-32-bartama-graphic-7.png" alt="text" height="50" width="125"></button>
+              </div>
+          </div>
+          <div class="chatbox__button">
+              <button class="button"><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+          </div>
+      </div>
+    </div>
     <script src="static/scripts.js"></script>
+    <script type =text/javascript>
+      $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
   </body>
 </html>

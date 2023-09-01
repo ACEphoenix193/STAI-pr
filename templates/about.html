@@ -33,8 +33,8 @@
         <h2 class="logo">Genetic Engineering in Healthcare</h2>
         <ul class="navlist">
           <li><a href="/" >Home</a></li>
-          <li><a href="/WhyGeneticEngineering/index.html">Why Genetic Engineering</a></li>
-          <li><a href="/Game/index.html">Game</a></li>
+          <li><a href="/whyge">Why Genetic Engineering</a></li>
+          <li><a href="/ethical">Ethical Concerns</a></li>
           <li><a href="/about" class="active">About Us</a></li>
         </ul>
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -43,7 +43,7 @@
         <li class="member">
           <div class="info">
             <div class="info-content">
-              <img src="static\Parth.jpg" alt="Person 1" />
+              <img src="https://github.com/ACEphoenix193/about-us/blob/main/Parth.jpg?raw=true" alt="Person 1" />
               <div class="text">
                 <h2>Parth Agrawal</h2>
                 <p>
@@ -64,7 +64,7 @@
         <li class="member">
           <div class="info">
             <div class="info-content">
-              <img src="static\shouvik.jpg" alt="Person 1" />
+              <img src="https://github.com/ACEphoenix193/about-us/blob/main/shouvik.jpg?raw=true" alt="Person 1" />
               <div class="text">
                 <h2>Shouvik Maiti</h2>
                 <p>
@@ -88,7 +88,7 @@
         <li class="member">
           <div class="info">
             <div class="info-content">
-              <img src="static\shashwat.jpg" alt="Person 1" />
+              <img src="https://github.com/ACEphoenix193/about-us/blob/main/shashwat.jpg?raw=true" alt="Person 1" />
               <div class="text">
                 <h2>Shashwat Singh</h2>
                 <p>
@@ -110,21 +110,50 @@
         </li>
       </ul>
       <footer>
+        <footer>
           <div class="footer-content">
             <div class="footer-column">
-              <h3>About Us</h3>
-              <p>
-                We work towards a better
-                future.
-              </p>
+              <h3>© 2023 All rights reserved.</h3>
+              <p>We work towards a better future.</p>
             </div>
             <div class="footer-column">
-              <h3>Follow Us</h3>
-              
+              <h3>For inquiries or feedback, please contact us at:</h3>
+              <a href="#">Email: xyz@gmail.com </a>
+              <a href="#">Phone: 9678xxxx</a>
             </div>
           </div>
-      </footer>
+        </footer>
+    </div>
+    <div class="container">
+      <div class="chatbox">
+          <div class="chatbox__support">
+              <div class="chatbox__header">
+                  <div class="chatbox__image--header">
+                      <img src="https://cdn-icons-png.flaticon.com/512/3094/3094129.png" width="70" height="70" alt="C0D3X">
+                  </div>
+                  <div class="chatbox__content--header">
+                      <h4 class="chatbox__heading--header">Chat support</h4>
+                      <p class="chatbox__description--header">WELCOME TO AN INFORMATIVE PAGE ON GENETIC ENGINEERING IN HEALTHCARE </p>
+                  </div>
+              </div>
+              <div class="chatbox__messages">
+                  <div></div>
+              </div>
+              <div class="chatbox__footer">
+                  <input type="text" placeholder="Write a message...">
+                  <button class="chatbox__send--footer send__button"><input type="image" name="SEND" 
+                      src="https://img.icons8.com/external-bartama-outline-32-bartama-graphic/344/external-email-e-mail-bartama-outline-32-bartama-graphic-7.png" alt="text" height="50" width="125"></button>
+              </div>
+          </div>
+          <div class="chatbox__button">
+              <button class="button"><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+          </div>
+      </div>
     </div>
     <script src="static/script.js"></script>
+    <script type =text/javascript>
+      $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
   </body>
 </html>

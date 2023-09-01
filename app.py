@@ -8,9 +8,19 @@ CORS(app)
 @app.get("/")
 def index_get():
     return render_template("index.html")
+
 @app.get("/about")
 def about():
     return render_template("about.html")
+
+@app.get("/whyge")
+def whyge():
+    return render_template("why.html")
+
+@app.get("/ethical")
+def ethical():
+    return render_template("ethical.html")
+
 @app.post("/predict")
 def predict():
     text = request.get_json().get("message")
