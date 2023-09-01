@@ -76,15 +76,15 @@ header {
   display: none;
 }
 @media (max-width: 1535px) {
-  header {
-    padding: 15px 3%;
-    transition: 0.2s;
-  }
-  .icons {
-    padding: 0 3%;
-  }
-}
-@media (max-width: 990px) {
+    header {
+      padding: 15px 3%;
+      transition: 0.2s;
+    }
+    .icons {
+      padding: 0 3%;
+    }
+ }
+@media (max-width: 1750px) {
   #menu-icon {
     display: block;
   }
