@@ -11,7 +11,7 @@
         "Good day"
       ],
       "responses": [
-        "Hi there,Welcome to the Amazon shopping website.",
+        "Hi there,Welcome to the a page about Genetic Engineering ",
         "Hi there, what can I do for you?",
         "Hi there, how can I help you?"
       ]
@@ -31,73 +31,294 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "offers",
+      "tag": "who",
       "patterns": [
-        "Any offers?",
-        "Any discount?"
+        "Who are you ?",
+        "What are you ?"
       ],
       "responses": [
-        "Sorry there,but the offer period is over.",
-        "Yes ! 50% discount on clothes,shoes,bags.",
-        "Yes sir/ma'am. We have special diwali offers for this whole week!"
+        "I am a chatbot for this website.",
+        "I am Gregor, here to tell you about Genetic Engineering ",
+        "Hi! I am someone you can talk to about Genetic Engineering."
       ]
     },
     {
-      "tag": "exchange",
+      "tag": "geneticengineering",
       "patterns": [
-        "what is the exchange policy?",
-        "I wish to exchange my clothes. I bought it 3 days back.Is it possible? "
+        "Tell me about Genetic Engineering",
+        "What is Genetic Engineering?",
+        "Explain Genetic Engineering",
+        "How does Genetic Engineering work?"
       ],
       "responses": [
-        "We accept exchanges within 7 days of the purchase. Items bought under offers cannot be exchanged."
-        
+        "Genetic Engineering is the direct manipulation of an organism's genes using biotechnology. It involves altering DNA to achieve specific traits or characteristics.",
+        "Genetic Engineering is a field of science that modifies an organism's genetic material, often to enhance its traits or create new ones.",
+        "In Genetic Engineering, scientists modify the DNA of an organism, allowing for the creation of genetically modified organisms (GMOs) with desired traits.",
+        "Genetic Engineering involves precise changes to an organism's DNA, which can have applications in agriculture, medicine, and more."
       ]
     },
     {
-      "tag": "Shipping rates",
+      "tag": "applications",
       "patterns": [
-        "What is the shipping rate?",
-        "How can I determine the shipping rate?",
-        "Tell me something about the shipping rate."
+        "What are the applications of Genetic Engineering?",
+        "How is Genetic Engineering used?",
+        "Tell me about Genetic Engineering in agriculture",
+        "Explain the medical applications of Genetic Engineering"
       ],
       "responses": [
-        "Shipping rates and times depend on the shipping speed and the weight/size of the items. To determine the applicable shipping rate,select proceed to checkout,add your shipping address,select a shipping speed,select a payment method and select continue to know the shipping rates."       
+        "Genetic Engineering has applications in agriculture, medicine, and biotechnology. It's used to create disease-resistant crops, produce medicines, and more.",
+        "In agriculture, Genetic Engineering is used to develop crops with improved yield and resistance to pests. In medicine, it's used to produce insulin and other medications.",
+        "Genetic Engineering in agriculture involves creating genetically modified crops with desirable traits, such as drought resistance or increased nutritional value.",
+        "Medical applications of Genetic Engineering include gene therapy, which can treat genetic disorders, and the production of human insulin for diabetes treatment."
       ]
     },
     {
-      "tag": "Order tracking",
+      "tag": "ethicalconcerns",
       "patterns": [
-        "I had ordered 3-4 days back. I have not received it.",
-        "How do I check when I will receive my order?"
-        
+        "What are the ethical concerns of Genetic Engineering?",
+        "Explain the ethical issues in Genetic Engineering",
+        "Are there ethical dilemmas in Genetic Engineering?"
       ],
       "responses": [
-        "Go to Your Orders,click on the order you want to track,select Track Package next to your order.Now you can check out all the delivery updates."
-         ]
-    },
-    {
-      "tag": "Amazon Fresh",
-      "patterns": [
-        "What is Amazon Fresh?",
-        "I heard about Amazon Fresh somewhere.Pls explain it."
-        
-      ],
-      "responses": [
-        "Prime and Non-Prime members in select cities can shop for groceries, everyday essentials, and more with Amazon Fresh. Amazon Fresh offers Attended Delivery and Unattended Delivery, with Pickup options in select cities.Visit Amazon.com/Fresh to see if delivery or pickup is available in your area." 
+        "Ethical concerns in Genetic Engineering include issues like consent, genetic privacy, and the potential for creating 'designer babies.'",
+        "Genetic Engineering raises ethical questions about the use of genetic data, the potential for misuse, and the moral implications of altering genes.",
+        "Yes, there are ethical dilemmas in Genetic Engineering, particularly in areas like gene editing and the selection of specific traits in humans."
       ]
     },
     {
-      "tag": "Gift cards",
+      "tag": "risks",
       "patterns": [
-        "What are Amazon Gift Cards?",
-        "Please explain what are Amazon Gift Cards."
-        
+        "What are the risks associated with Genetic Engineering?",
+        "Tell me about the potential dangers of Genetic Engineering",
+        "Explain the safety concerns in Genetic Engineering"
       ],
       "responses": [
-        "An amazon gift card is a card that has already been loaded with a set amount of money and then sent out to the receiver. The receiver could be anyone. It could be a gift to your partner, best friend and anyone. Amazon gift cards can be purchased in almost any amount from $0.50 to $2000. Amazon gift cards can be redeemed on Amazon for anything on Amazon."
-        
+        "Risks in Genetic Engineering include unintended genetic consequences, environmental impacts, and the creation of organisms with unforeseen traits.",
+        "Genetic Engineering carries the risk of unintended genetic mutations, which can have unpredictable effects on organisms and ecosystems.",
+        "Safety concerns in Genetic Engineering relate to the potential harm to the environment and the need for strict containment measures when working with GMOs."
+      ]
+    },
+    {
+      "tag": "future",
+      "patterns": [
+        "What is the future of Genetic Engineering?",
+        "Tell me about the future possibilities in Genetic Engineering",
+        "Explain the advancements we can expect in Genetic Engineering"
+      ],
+      "responses": [
+        "The future of Genetic Engineering holds promise for advancements in medicine, agriculture, and biotechnology. We can expect more precise gene editing techniques and novel applications.",
+        "In the future, Genetic Engineering may enable treatments for currently incurable genetic diseases and the development of more sustainable agricultural practices.",
+        "Advancements in Genetic Engineering could lead to breakthroughs in personalized medicine and the creation of genetically modified organisms with increased resilience and productivity."
+      ]
+    },
+    {
+      "tag": "geneediting",
+      "patterns": [
+        "What is gene editing?",
+        "Explain the concept of gene editing",
+        "How does gene editing work?"
+      ],
+      "responses": [
+        "Gene editing is the process of modifying an organism's DNA, often with the goal of correcting genetic defects or enhancing specific traits.",
+        "Gene editing involves precise changes to an organism's DNA using techniques like CRISPR-Cas9, allowing for targeted genetic modifications.",
+        "Gene editing works by introducing specific changes to an organism's DNA sequence, enabling the addition, deletion, or alteration of genes."
+      ]
+    },
+    {
+      "tag": "geneexpression",
+      "patterns": [
+        "What is gene expression?",
+        "Explain gene expression",
+        "How does gene expression relate to Genetic Engineering?"
+      ],
+      "responses": [
+        "Gene expression refers to the process by which information from a gene is used to synthesize a functional product, typically a protein.",
+        "Gene expression plays a crucial role in Genetic Engineering as it determines how genes are utilized to create specific traits or characteristics.",
+        "In Genetic Engineering, understanding and controlling gene expression are essential for achieving desired outcomes in modified organisms."
+      ]
+    },
+    {
+      "tag": "geneticmodification",
+      "patterns": [
+        "What is genetic modification?",
+        "Explain genetic modification",
+        "How is genetic modification achieved?"
+      ],
+      "responses": [
+        "Genetic modification involves altering an organism's genetic material to introduce new traits or enhance existing ones.",
+        "In Genetic Engineering, genetic modification is achieved through techniques like gene splicing and CRISPR-Cas9, which allow for precise changes to an organism's DNA.",
+        "Genetic modification is the core process in Genetic Engineering, enabling the creation of genetically modified organisms (GMOs) with specific traits."
+      ]
+    },
+    {
+      "tag": "benefits",
+      "patterns": [
+        "What are the benefits of Genetic Engineering?",
+        "Tell me about the advantages of Genetic Engineering",
+        "Explain how Genetic Engineering improves our lives"
+      ],
+      "responses": [
+        "Benefits of Genetic Engineering include improved crop yield, disease treatments, and the potential to address genetic disorders.",
+        "Genetic Engineering has the advantage of creating genetically modified organisms with desirable traits, leading to more resilient crops and novel medical treatments.",
+        "The benefits of Genetic Engineering extend to personalized medicine, where treatments can be tailored to an individual's genetic makeup."
+      ]
+    },
+    {
+      "tag": "genecloning",
+      "patterns": [
+        "What is gene cloning?",
+        "Explain the concept of gene cloning",
+        "How is gene cloning used in Genetic Engineering?"
+      ],
+      "responses": [
+        "Gene cloning is the process of making identical copies of a gene, typically for research or practical applications in Genetic Engineering.",
+        "In Genetic Engineering, gene cloning allows for the replication of specific genes of interest, which can be inserted into other organisms to achieve desired traits.",
+        "Gene cloning is a fundamental technique in Genetic Engineering, enabling the study and manipulation of genes."
+      ]
+    },
+    {
+      "tag": "advantages1",
+      "patterns": ["What are the advantages of Genetic Engineering in agriculture?", "Tell me about the benefits of Genetic Engineering in crops."],
+      "responses": ["Genetic Engineering in agriculture can lead to increased crop yield and resilience against pests and environmental conditions.", "One of the advantages of Genetic Engineering in agriculture is the ability to develop crops with improved nutritional content."]
+    },
+    {
+      "tag": "advantages2",
+      "patterns": ["Explain how Genetic Engineering can benefit the pharmaceutical industry.", "Tell me about the advantages of Genetic Engineering in medicine."],
+      "responses": ["Genetic Engineering in the pharmaceutical industry allows for the production of important medications like insulin and vaccines.", "In medicine, Genetic Engineering offers the potential to develop personalized treatments for various diseases."]
+    },
+    {
+      "tag": "advantages3",
+      "patterns": ["What are the ecological advantages of Genetic Engineering?", "Explain how Genetic Engineering can benefit the environment."],
+      "responses": ["Genetic Engineering can reduce the need for chemical pesticides and fertilizers, promoting more sustainable agriculture.", "One ecological advantage of Genetic Engineering is the potential to conserve biodiversity by creating disease-resistant plants."]
+    },
+    {
+      "tag": "advantages4",
+      "patterns": ["How does Genetic Engineering contribute to advancements in biotechnology?", "Tell me about the role of Genetic Engineering in biotech innovations."],
+      "responses": ["Genetic Engineering is a driving force behind biotech innovations, enabling the development of new therapies and bioproducts.", "Advancements in biotechnology often rely on Genetic Engineering techniques to manipulate genes for various applications."]
+    },
+    {
+      "tag": "advantages5",
+      "patterns": ["What are the economic advantages of Genetic Engineering?", "Explain how Genetic Engineering can benefit industries and economies."],
+      "responses": ["Genetic Engineering can lead to cost savings in agriculture through reduced pesticide use and increased crop productivity.", "Industries that embrace Genetic Engineering often experience economic growth and increased competitiveness."]
+    },
+    {
+      "tag": "ethics1",
+      "patterns": ["Discuss the ethical concerns related to altering the human genome.", "What are the moral dilemmas surrounding human gene editing?"],
+      "responses": ["Altering the human genome raises ethical concerns about unintended consequences and the potential for designer babies.", "The ethical concerns of human gene editing include issues of consent, safety, and long-term effects."]
+    },
+    {
+      "tag": "ethics2",
+      "patterns": ["Explain the ethical concerns regarding genetically modified organisms in agriculture.", "What are the ethical implications of GMOs in farming?"],
+      "responses": ["Ethical concerns in agriculture focus on environmental impacts, such as the potential harm to non-GMO crops and ecosystems.", "The use of GMOs in farming raises questions about food safety, labeling, and consumer choice."]
+    },
+    {
+      "tag": "ethics3",
+      "patterns": ["Discuss the ethical concerns of using gene editing for non-medical purposes.", "What are the ethical issues surrounding gene editing in sports or aesthetics?"],
+      "responses": ["Using gene editing for non-medical purposes can lead to concerns about fairness, consent, and societal values.", "Ethical dilemmas arise when gene editing is used for cosmetic enhancements or performance enhancements in sports."]
+    },
+    {
+      "tag": "ethics4",
+      "patterns": ["Explain the ethical considerations in using Genetic Engineering for cloning.", "What are the moral concerns of animal cloning?"],
+      "responses": ["The ethical considerations of using Genetic Engineering for cloning involve questions of identity and suffering in cloned animals.", "Cloning raises moral concerns about playing with the natural order of reproduction."]
+    },
+    {
+      "tag": "advantages6",
+      "patterns": [
+        "How can Genetic Engineering impact the field of biomedicine?",
+        "Tell me about Genetic Engineering's role in biomedicine."
+      ],
+      "responses": [
+        "Genetic Engineering has the potential to revolutionize biomedicine by enabling the development of targeted therapies and regenerative medicine.",
+        "In biomedicine, Genetic Engineering offers hope for treating previously untreatable diseases."
+      ]
+    },
+    {
+      "tag": "advantages7",
+      "patterns": [
+        "Explain the role of Genetic Engineering in the production of genetically modified organisms (GMOs).",
+        "Tell me about the applications of Genetic Engineering in creating GMOs."
+      ],
+      "responses": [
+        "Genetic Engineering plays a crucial role in creating GMOs, which can have benefits such as increased crop yield and resistance to pests.",
+        "GMOs, produced through Genetic Engineering, have the potential to address global food security challenges."
+      ]
+    },
+    {
+      "tag": "advantages8",
+      "patterns": [
+        "How can Genetic Engineering contribute to environmental conservation?",
+        "Tell me about the environmental benefits of Genetic Engineering."
+      ],
+      "responses": [
+        "Genetic Engineering can help conserve the environment by reducing the need for chemical pesticides and promoting sustainable agriculture.",
+        "One of the environmental benefits of Genetic Engineering is the development of crops that require fewer resources."
+      ]
+    },
+    {
+      "tag": "advantages9",
+      "patterns": [
+        "What are the ethical concerns surrounding the use of Genetic Engineering in cloning?",
+        "Explain the moral dilemmas of cloning through Genetic Engineering."
+      ],
+      "responses": [
+        "Cloning through Genetic Engineering raises ethical concerns about the welfare of cloned animals and their potential suffering.",
+        "The ethical considerations of cloning involve questions of identity and the ethical treatment of cloned organisms."
+      ]
+    },
+    {
+      "tag": "ethics5",
+      "patterns": [
+        "Discuss the ethical dilemmas related to genetic modifications for cosmetic purposes.",
+        "What are the moral concerns surrounding genetic enhancements for aesthetics?"
+      ],
+      "responses": [
+        "Ethical dilemmas arise when genetic modifications are used for cosmetic enhancements, raising questions about societal values and natural beauty.",
+        "The use of genetic engineering for aesthetic purposes prompts ethical discussions about body image and personal choice."
+      ]
+    },
+    {
+      "tag": "ethics6",
+      "patterns": [
+        "Explain the ethical concerns associated with the potential misuse of Genetic Engineering.",
+        "What are the moral issues related to the misuse of Genetic Engineering technology?"
+      ],
+      "responses": [
+        "Ethical concerns arise when Genetic Engineering technology is misused, potentially leading to unintended consequences and harm.",
+        "The ethical dilemmas of misuse highlight the importance of responsible and ethical use of Genetic Engineering."
+      ]
+    },
+    {
+      "tag": "ethics7",
+      "patterns": [
+        "Discuss the ethical implications of using Genetic Engineering to select specific traits in unborn children.",
+        "What are the moral considerations of 'designer babies'?"
+      ],
+      "responses": [
+        "The ethical implications of 'designer babies' involve concerns about playing a role in selecting specific traits, which may impact individual autonomy and diversity.",
+        "Ethical dilemmas surround the concept of designing children, raising questions about the natural course of genetics and human identity."
+      ]
+    },
+    {
+      "tag": "ethics8",
+      "patterns": [
+        "Explain the ethical concerns of unequal access to genetic therapies and treatments.",
+        "What are the moral issues surrounding the unequal distribution of Genetic Engineering advancements?"
+      ],
+      "responses": [
+        "The ethical issue of unequal access to genetic therapies highlights concerns about healthcare disparities and social justice.",
+        "Ethical dilemmas arise when genetic advancements may exacerbate existing inequalities in healthcare access."
+      ]
+    },
+    {
+      "tag": "ethics9",
+      "patterns": [
+        "Discuss the ethical concerns of altering the human genome for non-medical purposes.",
+        "What are the moral dilemmas related to gene editing for non-medical enhancements?"
+      ],
+      "responses": [
+        "Ethical concerns arise when gene editing is used for non-medical enhancements, raising questions about fairness, consent, and societal values.",
+        "The ethical dilemmas of non-medical gene editing include issues of safety, societal norms, and unintended consequences."
       ]
     }
-    
   ]
 }
